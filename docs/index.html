@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/style.css?t=615badd5">
+    <script src="assets/script.js?t=42463e55"></script>
+    <title>Blog &amp; Baby Documentation</title>
+    <meta name="viewport" content="width=device-width">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.1/clipboard.min.js"></script>
+    <style>
+
+    .btn {
+        border: 0;
+        padding: 5px 10px;
+        border-radius: 5px;
+        position: absolute;
+        right: 20px;
+        cursor: pointer;
+        visibility: hidden;
+    }
+    
+    pre {
+        position: relative;
+    }
+    
+    pre:hover .btn {
+        transition: all 0.4s ease;
+        visibility: visible;
+    }
+
+    code,
+    pre {
+        background: #333640 !important;
+        color: white;
+        border: 1px solid #333;
+        border-radius: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .markdown-body a {
+        color: #333640 !important;
+        font-weight: bold;
+    }
+    
+    code:hover,
+    pre:hover,
+    img:hover {
+        box-shadow: 3px 3px 3px 0px #a5a5a5;
+    }
+    
+    pre:hover code:hover {
+        box-shadow: none;
+    }
+    
+    code:hover {
+        cursor: pointer;
+    }
+    
+    ::selection {
+        background: #333640 !important;
+        color: white;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background-color: #e2e2e2;
+        width: 3px;
+        border: 0;
+    }
+    
+    ::-webkit-scrollbar {
+        width: 3px;
+        background-color: #F5F5F5;
+        border: 0;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+        width: 3px;
+        -webkit-box-shadow: inset 0 0 6px #333640;
+        background-color: #333;
+        border: 0;
+    }
+    </style>
+</head>
+
+<body class="-menu-visible">
+    <div class="doc-layout">
+        <div class="toggle menu-toggle js-menu-toggle"></div>
+        <div class="menu toc-menu">
+            <li class="menu-item -level-0 -parent">
+                <ul class="submenu">
+                    <li class="menu-item -level-1"><a class="link title -active link-index" href="index.html">Blog &amp; Baby Documentation</a>
+                    </li>
+                    <li class="menu-item -level-1"><a class="link title link-1.-typography-and-colors" href="#1.-typography-and-colors">1. Typography &amp; Colors</a>
+                    </li>
+                    <li class="menu-item -level-1"><a class="link title link-2.-theme-pages" href="#2.-theme-pages">2. Theme Pages</a>
+                    </li>
+                    <li class="menu-item -level-1 -parent"><a class="link title link-3.-layout" href="#3.-layout">3. Layout</a>
+                        <ul class="submenu">
+                            <li class="menu-item -level-2"><a class="link title link-1.-ungrid" href="#1.-ungrid">1. Ungrid</a>
+                            </li>
+                            <li class="menu-item -level-2"><a class="link title link-2.-bootstrap-grid" href="#2.-bootstrap-grid">2. Bootstrap Grid</a>
+                            </li>
+                            <li class="menu-item -level-2"><a class="link title link-3.-navbar" href="#3.-navbar">3. Navbar</a>
+                            </li>
+                            <li class="menu-item -level-2"><a class="link title link-4.-author-html-code" href="#4.-author-html-code">4. Author HTML Code</a>
+                            </li>
+                            <li class="menu-item -level-2"><a class="link title link-5.-posts-html-code" href="#5.-posts-html-code">5. Posts HTML Code</a>
+                            </li>
+                            <li class="menu-item -level-2"><a class="link title link-6.-section-1-html-code" href="#6.-section-1-html-code">6. Section-1 HTML Code</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item -level-1 -parent"><a class="link title link-4.-javascript" href="#4.-javascript">4. Javascript</a>
+                        <ul class="submenu">
+                            <li class="menu-item -level-2"><a class="link title link-1.-owl-carousel" href="#1.-owl-carousel">1. Owl Carousel</a>
+                            </li>
+                            <li class="menu-item -level-2"><a class="link title link-2.-timer-code" href="#2.-timer-code">2. Timer Code</a>
+                            </li>
+                            <li class="menu-item -level-2"><a class="link title link-3.-slide-to-nav" href="#3.-slide-to-nav">3. Slide to Nav</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item -level-1"><a class="link title link-5.-contact" href="#5.-contact">5. Contact</a>
+                    </li>
+                </ul>
+            </li>
+        </div>
+        <div class="body page-index">
+            <div class="header-nav">
+                <div class="right">
+                </div>
+            </div>
+            <div class="markdown-body">
+                <h1 id="blog-and-baby-documentation">Blog &amp; Baby Documentation</h1>
+                <p>Welcome to documentation for Blog &amp; Baby Theme , it&apos;s easy to use and flexible to extend.</p>
+                <ol>
+                    <li>
+                        <p><a href="#1.-typography-and-colors">Typography &amp; Colors</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#2.-theme-pages">Theme Pages.</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#3.-layout">Layout.</a></p>
+                        <ul>
+                            <li><a href="#1.-ungrid">Ungrid</a></li>
+                            <li><a href="#2.-bootstrap-grid">Bootstrap Grid</a></li>
+                            <li><a href="#3.-navbar">Navbar</a></li>
+                            <li><a href="#4.-author-html-code">Author HTML Code</a></li>
+                            <li><a href="#5.-posts-html-code">Posts HTML Code</a></li>
+                            <li><a href="#6.-section-1-html-code">Section-1 HTML Code</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><a href="#4.-javascript">Javascript</a></p>
+                        <ul>
+                            <li><a href="#1.-owl-carousel">Owl Carousel</a></li>
+                            <li><a href="#2.-timer-code">Timer Code</a></li>
+                            <li><a href="#3.-slide-to-nav">Slide to Nav</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><a href="#5.-contact">Contact</a></p>
+                    </li>
+                </ol>
+                <h2 id="1.-typography-and-colors">1. Typography &amp; Colors</h2>
+                <p>Below are font and color used in our theme.</p>
+                <h4 id="font">Font</h4>
+                <ol>
+                    <li><code>Playfair-Display</code></li>
+                    <li><code>Lato</code></li>
+                </ol>
+                <h4 id="color">Color</h4>
+                <ol>
+                    <li><code>#38908d</code></li>
+                    <li><code>#ccc</code></li>
+                </ol>
+                <p>Ideal image resolution for post is <code>600x400</code> or ratio of <code>3:2</code></p>
+                <p><b>Note :</b> Images displayed in theme are not included in package.</p>
+                <h2 id="2.-theme-pages">2. Theme Pages</h2>
+                <p>You can choose from different 4 layouts.</p>
+                <p><code>index-left.html</code></p>
+                <ul>
+                    <li>in this layout author detail positioned in left of blog entries.</li>
+                </ul>
+                <p><code>index-right.html</code></p>
+                <ul>
+                    <li>in this layout author detail positioned in right of blog entries.</li>
+                </ul>
+                <p><code>index-full.html</code></p>
+                <ul>
+                    <li>in this layout author as well blog entries expanded to take full width.</li>
+                </ul>
+                <p><code>index-grid.html</code></p>
+                <ul>
+                    <li>in this page we have included three different grid for future use.</li>
+                </ul>
+                <p><code>single-post.html</code></p>
+                <ul>
+                    <li>this page contain single post layout.</li>
+                </ul>
+                <p>Grid of this theme is flexible for extend you can add as many <code>.cell</code> inside <code>.table-row</code> class. it will auto adjust it&apos;s width as well as space. you can check it&apos;s behaviour in <code>index-grid.html</code> page.</p>
+                <h2 id="3.-layout">3. Layout</h1>
+<p>We have included two grid frameworks in our theme.</p>
+<ul>
+<li><a href="#1.-ungrid">Ungrid</a></li>
+<li><a href="#2.-bootstrap-grid">Bootstrap Grid</a></li>
+</ul>
+<h3 id="1.-ungrid">1. Ungrid</h3>
+<p>For Flexible Grid We have used ungrid in our layout, you can find more about it <a href="http://chrisnager.github.io/ungrid/">Here</a></p>
+<p>You can create row using <code>.table-row</code> class.</p>
+<p>To insert column inside row you can use <code>.cell</code> class.</p>
+<p>When you put <code>.cell</code> class inside <code>.table-row</code> it will auto adjust width of column inside your row. Once you insert second column both column will get half width of <code>.table-row</code>. it will auto adjust when you insert third column.</p>
+<p>ex.</p>
+<pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar1">Copy</button><code id="bar1">&lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;table-row&quot;&gt;
+        &lt;div class=&quot;cell&quot;&gt;
+            &lt;h2&gt;Heading&lt;/h2&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quasi, quos voluptatum ullam ex corporis excepturi odit temporibus officiis? Eveniet alias facilis libero accusantium delectus est molestiae iure magni temporibus?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<h5 id="output:">Output:</h5>
+<p><img src="http://i.imgur.com/IGlLnCq.png" alt="Col-1"></p>
+<pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar2">Copy</button><code id="bar2">&lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;table-row&quot;&gt;
+        &lt;div class=&quot;cell&quot;&gt;
+            &lt;h2&gt;Heading&lt;/h2&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quasi, quos voluptatum ullam ex corporis excepturi odit temporibus officiis? Eveniet alias facilis libero accusantium delectus est molestiae iure magni temporibus?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;cell&quot;&gt;
+            &lt;h2&gt;Heading&lt;/h2&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quasi, quos voluptatum ullam ex corporis excepturi odit temporibus officiis? Eveniet alias facilis libero accusantium delectus est molestiae iure magni temporibus?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<h5 id="output:">Output:</h5>
+<p><img src="http://i.imgur.com/d0hu6ml.png" alt="Col-2"></p>
+<pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar3">Copy</button><code id="bar3">&lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;table-row&quot;&gt;
+        &lt;div class=&quot;cell&quot;&gt;
+            &lt;h2&gt;Heading&lt;/h2&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quasi, quos voluptatum ullam ex corporis excepturi odit temporibus officiis? Eveniet alias facilis libero accusantium delectus est molestiae iure magni temporibus?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;cell&quot;&gt;
+            &lt;h2&gt;Heading&lt;/h2&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quasi, quos voluptatum ullam ex corporis excepturi odit temporibus officiis? Eveniet alias facilis libero accusantium delectus est molestiae iure magni temporibus?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;cell&quot;&gt;
+            &lt;h2&gt;Heading&lt;/h2&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quasi, quos voluptatum ullam ex corporis excepturi odit temporibus officiis? Eveniet alias facilis libero accusantium delectus est molestiae iure magni temporibus?&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<h5 id="output:">Output:</h5>
+<p><img src="http://i.imgur.com/lctIc1E.png" alt="Col-3"></p>
+<p>You can simply define fixed width (if you want) for container by define width or max-width properties.</p>
+<h3 id="2.-bootstrap-grid">2. Bootstrap Grid</h3>
+<p>You can use bootstrap grid too in our theme.You can find more about bootstrap grid <a href="https://getbootstrap.com/css/#grid">Here</a></p>
+<p>All classes related to grid for ex. col-lg-4, col-md-6, col-sm-8, container, row will work inside theme.</p>
+<h3 id="3.-navbar">3. Navbar</h3>
+<p>By default navigation bar have relative positioning and transparent background.you can easily modify it&apos;s behaviour by appending extra classes.</p>
+<p><code>.sticky</code> class will make it fixed positioned on top.</p>
+<p><code>.stretched</code> class will make it full width.</p>
+<p><code>.white</code> class will add white background behind it.</p>
+<h3 id="4.-author-html-code">4. Author HTML Code</h3>
+<p>Below is code for author block.</p>
+<pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar4">Copy</button><code id="bar4">&lt;div class=&quot;cell author&quot;&gt;
+    &lt;div class=&quot;image&quot;&gt;&lt;/div&gt;
+    &lt;h1&gt;Hi,I&apos;m Eliza&lt;/h1&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia rerum, tempora, eius maiores nobis illo quasi soluta minus dicta sed officiis sapiente adipisci quos rem similique! Mollitia accusantium vero ab.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+<p>you can simply change it&apos;s background by adding background image in <code>.image</code> class. ex.</p>
+<pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar5">Copy</button><code id="bar5">&lt;div class=&quot;image&quot; style=&quot;background-image:url(&apos;sample_image.png&apos;)&quot;&gt;&lt;/div&gt;
+</code></pre>
+<h3 id="5.-posts-html-code">5. Posts HTML Code</h3>
+<p>Below is code for posts block. it can contain multiple post.</p>
+<pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar6">Copy</button><code id="bar6">&lt;div class=&quot;cell posts&quot;&gt;
+    &lt;div class=&quot;post&quot;&gt;
+        &lt;img src=&quot;images/baby-4.jpg&quot; alt=&quot;Blog Post Image&quot;&gt;
+        &lt;div class=&quot;text&quot;&gt;&lt;span class=&quot;date&quot;&gt;1st june 2015&lt;/span&gt;
+            &lt;a href=&quot;single-post.html&quot;&gt;&lt;h1&gt;Suitably cute but no too long title in here&lt;/h1&gt;&lt;/a&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia rerum, tempora, eius maiores nobis illo quasi soluta minus dicta sed officiis sapiente adipisci quos rem similique! Mollitia accusantium vero ab. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo aut sint vitae possimus. Nulla saepe fugit, id, ut vero dicta repellendus ducimus similique expedita quaerat, aperiam a corporis at reiciendis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi quibusdam voluptatibus, accusamus, facilis, quis impedit error soluta labore dolorum dignissimos aliquid esse maiores deleniti cupiditate corrupti quam consectetur obcaecati et! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum explicabo, magnam eius. Mollitia fugit aspernatur architecto eius amet delectus porro! Amet nemo eos nostrum dignissimos et explicabo, reprehenderit. Unde, atque! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse sapiente, nisi laborum ducimus asperiores blanditiis necessitatibus architecto fugiat illo, incidunt, perspiciatis velit, nemo aliquam deserunt! Earum nisi eaque numquam praesentium?&lt;/p&gt;
+            &lt;div class=&quot;tags&quot;&gt;
+                &lt;span&gt;baby&lt;/span&gt;
+                &lt;span&gt;cute&lt;/span&gt;
+                &lt;span&gt;feeding&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;social&quot;&gt;
+            &lt;div class=&quot;share&quot;&gt;
+                &lt;span&gt;share&lt;/span&gt;
+                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-pinterest&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+                &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;comments&quot;&gt;
+                &lt;span&gt;9 comments&lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<p>this code will insert single post inside posts block.</p>
+<p>By default we have set 50px <code>border-spacing</code> between author and posts block. you can modify block to compact or expand it.</p>
+<p>Image can simply replace for blog post by replacing <code>src</code> of image inside <code>.post</code> block.</p>
+<p><code>.text</code> inside <code>.post</code> used for content block of post.</p>
+<p><code>.date</code> used for displaying date of post.</p>
+<p><code>.social</code> contain <code>.share</code> and <code>.comments</code> block inside it. <code>.share</code> is used for sharing content in social site. <code>.comments</code> used for displaying comments of the post.</p>
+<h3 id="6.-section-1-html-code">6. Section-1 HTML Code</h3>
+<p>Grid below slider is for displaying featured posts. Below is code to create one grid of three column.</p>
+<pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar7">Copy</button><code id="bar7">&lt;div class=&quot;section-1&quot;&gt;
+    &lt;div class=&quot;table-row&quot;&gt;
+        &lt;div class=&quot;cell first&quot;&gt;
+            &lt;div class=&quot;shadow-wrapper&quot;&gt;
+                &lt;div class=&quot;shadow&quot;&gt;
+                    &lt;h1&gt;Our Special Moments&lt;/h1&gt;
+                    &lt;p&gt;It&apos;s the special moments that make it all worthwhile, here are just a few of my favorites.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;cell&quot; style=&quot;background-image:url(&apos;images/baby-2.jpg&apos;)&quot;&gt;
+            &lt;div class=&quot;shadow-wrapper&quot;&gt;
+                &lt;div class=&quot;shadow&quot;&gt;
+                    &lt;a href=&quot;single-post.html&quot;&gt;&lt;h1&gt;Sample Heading&lt;/h1&gt;&lt;/a&gt;
+                    &lt;p&gt;Something too&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;cell&quot; style=&quot;background-image:url(&apos;images/baby-1.jpg&apos;)&quot;&gt;
+            &lt;div class=&quot;shadow-wrapper&quot;&gt;
+                &lt;div class=&quot;shadow&quot;&gt;
+                    &lt;a href=&quot;single-post.html&quot;&gt;&lt;h1&gt;Sample Heading&lt;/h1&gt;&lt;/a&gt;
+                    &lt;p&gt;Something too&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<p>You can simply change background image of block by defining a background image in <code>.cell</code> class.</p>
+<p>Below is ex. for html code.</p>
+<pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar8">Copy</button><code id="bar8">&lt;div class=&quot;cell&quot; style=&quot;background-image:url(&apos;sample_image.png&apos;)&quot;&gt;
+</code></pre>
+<h2 id="4.-javascript">4. Javascript</h2>
+                <p>You can find Javascript code of theme in <code>js/app.js</code>. It&apos;s divided into 6 Blocks.</p>
+                <ol>
+                    <li>Contain slide toggle code for hamburger menu.</li>
+                    <li>Scroll to top animation code.</li>
+                    <li>On click event for Scroll to top button.</li>
+                    <li>Nav menu Scroll to cotent animation code.</li>
+                    <li>Configuration for Owl Carousel Slider used in pages. You can find more <a href="https://owlcarousel2.github.io/OwlCarousel2/">here</a></li>
+                    <li>Code that powers timer. You can read more about it <a href="http://hilios.github.io/jQuery.countdown/">here</a></li>
+                </ol>
+                <h3 id="1.-owl-carousel">1. Owl Carousel</h3>
+                <p>You can apply owl carousel inside any page by adding below html code.</p>
+                <pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar8">Copy</button><code id="bar9">&lt;div class=&quot;owl-carousel owl-theme&quot;&gt;
+    &lt;div class=&quot;heading&quot;&gt;
+        &lt;div class=&quot;content&quot;&gt;
+            &lt;h1&gt;Welcome to Blog &amp; Baby&lt;/h1&gt;
+            &lt;p&gt;A blog all about my experiences as a parent living and learning as we went along.&lt;/p&gt;
+            &lt;a href=&quot;#&quot; class=&quot;scroll-down&quot;&gt;Please scroll down for more&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;heading&quot;&gt;
+        &lt;div class=&quot;content&quot;&gt;
+            &lt;h1&gt;Welcome to Blog &amp; Baby&lt;/h1&gt;
+            &lt;p&gt;A blog all about my experiences as a parent living and learning as we went along.&lt;/p&gt;
+            &lt;a href=&quot;#&quot; class=&quot;scroll-down&quot;&gt;Please scroll down for more&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;heading&quot;&gt;
+        &lt;div class=&quot;content&quot;&gt;
+            &lt;h1&gt;Welcome to Blog &amp; Baby&lt;/h1&gt;
+            &lt;p&gt;A blog all about my experiences as a parent living and learning as we went along.&lt;/p&gt;
+            &lt;a href=&quot;#&quot; class=&quot;scroll-down&quot;&gt;Please scroll down for more&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                <p>In above html code background image can set or replace in <code>.heading</code> class.for ex. modified line will look like below.</p>
+                <pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar10">Copy</button><code id="bar10">&lt;div class=&quot;heading&quot; style=&quot;background-image:url(&apos;sample_image.png&apos;)&quot;&gt;
+</code></pre>
+                <p>Heading content can insert inside <code>h1</code> tag.</p>
+                <p>Short description about content can add in <code>p</code> tag. we would recommand to not append more than 150 characters inside content to make it look effective.</p>
+                <p>For configuration about slider you can check js code in <code>js/app.js</code>.</p>
+                <p>Doc for owl slider is available <a href="https://owlcarousel2.github.io/OwlCarousel2/">here</a></p>
+                <h3 id="2.-timer-code">2. Timer Code</h3>
+                <p>Timer code will generate inside this html tag.you can change countdown to specific date by set it inside <code>data-countdown</code> attribute.</p>
+                <pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar11">Copy</button><code id="bar11">&lt;span class=&quot;timer&quot; data-countdown=&quot;2017/08/13&quot;&gt;&lt;/span&gt;
+</code></pre>
+                <p>JS Code that powers current timer is below.</p>
+                <pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar12">Copy</button><code id='bar12'>$(&apos;[data-countdown]&apos;).each(function() {
+    var $this = $(this),
+        finalDate = $(this).data(&apos;countdown&apos;);
+    $this.countdown(finalDate, function(event) {
+        $this.html(event.strftime(&apos;&apos; + 
+        &apos;&lt;span data-type=&quot;days&quot;&gt;%D&lt;/span&gt;&#xA0;&apos; + 
+        &apos;&lt;span data-type=&quot;hours&quot;&gt;%H&lt;/span&gt;:&apos; + 
+        &apos;&lt;span data-type=&quot;minutes&quot;&gt;%M&lt;/span&gt;:&apos; + 
+        &apos;&lt;span data-type=&quot;seconds&quot;&gt;%S&lt;/span&gt;&apos;));
+    });
+});
+</code></pre>
+                <p>in above code <code>data-type</code> define text to be inserted below timer, it can be anything. For Timing parameters you can use <code>%D</code>, <code>%H</code>, <code>%M</code>, <code>%S</code> and many others.</p>
+                <p>You can find documentation of all parameters <a href="http://hilios.github.io/jQuery.countdown/">here</a></p>
+                <h3 id="3.-slide-to-nav">3. Slide to Nav</h3>
+                <p>For slide to perticular blog we have used below js code.</p>
+                <pre><button class="btn" data-clipboard-action="copy" data-clipboard-target="#bar13">Copy</button><code id="bar13">    $(&apos;.bumps&apos;).on('click',function() {
+        $(&apos;html, body&apos;).animate({
+            scrollTop: $(&apos;.section-1&apos;).offset().top
+        }, 800);
+        return false;
+    });
+
+    $(&apos;.out&apos;).on('click',function() {
+        $(&apos;html, body&apos;).animate({
+            scrollTop: $(&apos;.section-3&apos;).offset().top
+        }, 800);
+        return false;
+    });
+
+    $(&apos;.day&apos;).on('click',function() {
+        $(&apos;html, body&apos;).animate({
+            scrollTop: $(&apos;.section-4&apos;).offset().top
+        }, 800);
+        return false;
+    });
+
+    $(&apos;.scroll-down&apos;).on('click',function() {
+        $(&apos;html, body&apos;).animate({
+            scrollTop: $(&apos;.section-1&apos;).offset().top
+        }, 800);
+        return false;
+    });
+</code></pre>
+                <h2 id="5.-contact">5. Contact</h2>
+                <p>We want to make sure you are happy with your purchase, if you have a question about how to do something or think you have found a bug, head over to our support system and we'll get back in touch.</p>
+                <p>You can contact us on <a href="mailto:themes@meanthemes.com">themes@meanthemes.com</a></p>
+                <p>For support on theme you can simply submit ticket on <a href="http://www.meanthemes.com/support/">Mean Themes</a></p>
+            </div>
+        </div>
+    </div>
+     <script>
+    new Clipboard('button');
+    </script>
+</body>
+
+</html>

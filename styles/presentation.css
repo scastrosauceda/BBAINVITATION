@@ -1,0 +1,66 @@
+.presentation {
+        background: pink;
+        color: white;
+        padding-bottom: 100px;
+    }
+    
+    ::selection {
+        background: #ffaab9;
+    }
+    
+    .row {
+        text-align: center;
+    }
+    
+    .cell, .section-1 .cell{
+        height: auto;
+    }
+
+    .main-heading{
+        margin-bottom: 50px;
+    }
+    
+    .heading {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .table-row {
+        border-spacing: 20px 10px;
+    }
+    
+    .cell,
+    div[class*=col] {
+        background: #fff;
+        border-radius: 10px;
+    }
+
+    .cell h1{
+        color: #333;
+    }
+    
+    .cell a{
+        display: block;
+        padding: 25px;
+        border-bottom: 0;
+    }
+    
+    .cell:hover,
+    div[class*=col]:hover {
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        box-shadow: 4px 3px 10px 3px #ffaab9;
+    }
+    
+    @media (max-width: 768px) {
+        .presentation .cell,
+        .presentation div[class*=col] {
+            margin: 30px auto;
+            width: 90%;
+        }
+
+        .presentation {
+        padding-bottom: 40px;
+    }
+
+    }
