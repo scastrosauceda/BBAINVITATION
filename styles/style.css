@@ -176,19 +176,19 @@ body {
 }
 
 h1 {
-    font-size: 180%;
+    font-size: 230%;
     margin-bottom: 15px
 }
 
 h2 {
-    font-size: 150%;
+    font-size: 200%;
     margin-bottom: 15px
 }
 
 a {
     line-height: 44px;
     padding-bottom: 6px;
-    color: #38908d;
+    color: #000;
     border-bottom: 1px dashed transparent
 }
 
@@ -198,7 +198,7 @@ a:hover {
     border-bottom: 1px dashed #38908d;
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
-    color: #1b4745
+    color: #ffaab9
 }
 
 p {
@@ -212,7 +212,7 @@ p {
 div.heading {
     min-height: 700px;
     min-height: 100vh;
-    background: url(../images/fotobba1.jpeg) no-repeat center center;
+    background: url(../images/fotobba1.jpg) no-repeat center center;
     background-size: cover;
     position: relative
 }
@@ -245,7 +245,7 @@ div.heading {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: url(../images/fotobba1.jpeg)
+    background-image: url(../images/fotobba1.jpg)
 }
 
 .section-1 .cell:hover>.shadow-wrapper {
@@ -360,7 +360,7 @@ div.heading {
     width: 250px;
     height: 250px;
     border-radius: 100%;
-    background: url(../images/fotobba1.jpeg) no-repeat center center;
+    background: url(../images/fotobba1.jpg) no-repeat center center;
     background-size: cover
 }
 
